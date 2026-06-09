@@ -22,11 +22,7 @@
 template <typename T>
 T maxValue(T a, T b) {
     // TODO 1: return the larger of a and b
-    if (a > b) {
-        return a;
-    } else {
-        return b;
-    } // <-- replace
+    return (a>b)? a:b; // <-- replace
 }
 
 // ---- Group 2: Function template with multiple type parameters --------------
